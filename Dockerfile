@@ -97,7 +97,7 @@ RUN \
 	Mail_mimeDecode && \
 
 # configure php, including symlink to fix cli warning in pydio.
- ln -s \
+ ln -sf \
 	/usr/bin/php7 \
 	/usr/bin/php && \
  sed -i \
